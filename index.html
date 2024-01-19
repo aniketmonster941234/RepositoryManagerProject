@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <div class="profileSection">
+                <img src="WIN_20230731_11_07_44_Pro.jpg" alt="profileImage"/>
+            </div>
+            <div class="detailSection">
+                <div id="name"><h3>John Doe</h3></div>
+                <div id="bio">Bio goes here</div>
+                <div id="location"><i class="bi bi-geo-alt-fill" style="margin-right: 5px;"></i>Orlando</div>
+                <div id="links">Twitter:</div>
+            </div>
+        </div>
+        <div id="mainContent">
+            <!-- <div class="repoContainer">
+                <div class="titleName"><h4 id="repoName">Heroes</h4></div>
+                <div class="description">Here goes the description</div>
+                <div class="topicContainer">
+                    <div class="topic">Angular</div>
+                    <div class="topic">Java</div>
+                    <div class="topic">Node</div>
+                    <div class="topic">JavaScript</div>
+                </div>
+            </div> -->
+        </div>
+        <div id="footer">
+            <div class="pagination" id="pagination">
+                <!-- <button class="pageIndex" onclick="previousClicked(this)" id="oldBtn1"><<</button>
+                <button class="pageIndex">1</button>
+                <button class="pageIndex">2</button>
+                <button class="pageIndex">3</button>
+                <button class="pageIndex">4</button>
+                <button class="pageIndex">5</button>
+                <button class="pageIndex">6</button>
+                <button class="pageIndex">7</button>
+                <button class="pageIndex">8</button>
+                <button class="pageIndex">9</button>
+                <button class="pageIndex" onclick="nextClicked(this)" id="newBtn1" >>></button> -->
+            </div>
+            <div class="footer_button">
+                <button onclick="previousClicked(this)" id="oldBtn2"><i class="bi bi-arrow-left" style="margin-right: 5px;font-weight: 600;"></i>Older</button>
+                <button onclick="nextClicked(this)" id="newBtn2" >Newer<i class="bi bi-arrow-right" style="margin-left: 5px;"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
